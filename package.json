@@ -9,6 +9,7 @@
     "build": "echo TODO... "
   },
   "dependencies": {
+    "fs": "^0.0.1-security",
     "js-yaml": "^4.1.0"
   },
   "devDependencies": {
