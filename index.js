@@ -25,6 +25,7 @@ for (const filesKey in files) {
     }
 
 }
+
 if (foundFiles.length === 0) {
     throw 'env file not found. searching for: '+ env_config_prefix+'.[yaml|yml|json]'
 } else if (foundFiles.length > 1) {
@@ -42,6 +43,5 @@ if (foundFiles.length === 0) {
 
 
 exports.env_config = env_config
-// exports.cu = process.env.NODE_ENV
 exports.env_config_name = env_config_prefix
 
