@@ -1,0 +1,18 @@
+{
+  "name": "env-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "marcelo@correia.io",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "build": "echo TODO... "
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+
+  "devDependencies": {
+    "jest": "^29.1.2"
+  }
+}
